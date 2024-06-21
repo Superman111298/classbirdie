@@ -1,0 +1,109 @@
+.classbirdie-answerDiv {
+    z-index: 10005;
+    position: fixed;
+    background: linear-gradient(180deg, rgba(79, 0, 255, 0.15) 0.01%, rgba(0, 0, 0, 0.00) 100%), #0D0D12;
+    width: 350px;
+    border-radius: 15px;
+    padding: 15px;
+    top:100px;
+    right: 25px;
+    font-family: "Segoe UI", Tahoma, sans-serif !important;
+}
+.classbirdie-answerDiv-close {
+    width: 25px;
+    height: 25px;
+    background-color: white;
+    position: absolute;
+    top:15px;
+    right:15px;
+    border-radius: 50%;
+    border-color: white;
+    opacity: 0.3;
+    margin: 0px 0px 10px 0px;
+}
+.classbirdie-answerDiv-close:hover {
+    opacity: 0.8;
+}
+.classbirdie-answerDiv h2 {
+    color: rgb(255, 255, 255);
+    cursor: move;
+    margin: 0px 0px 10px 0px;
+    font-family: "Segoe UI", Tahoma, sans-serif !important;
+}
+.classbirdie-answerHr {
+    border: 0.5px solid gray;
+    margin: 0px;
+}
+.classbirdie-answerDiv h3 {
+    color: rgb(255, 255, 255);
+    margin: 5px;
+    font-family: "Segoe UI", Tahoma, sans-serif !important;
+}
+.classbirdie-correctAnswerDiv {
+    background-image: linear-gradient(180deg, rgba(120, 93, 255, 0.20) 24.18%, rgba(0, 0, 0, 0.00) 100%);
+    color: rgb(255, 255, 255);
+    padding: 5px 15px;
+    margin: 10px 0px;
+    border-radius: 15px;
+    font-size: 20px !important;
+    font-family:serif !important;
+    font-weight: 700;
+    max-height: 300px;
+    overflow-y: auto;
+}
+.classbirdie-accBtn {
+    text-align: left;
+    width: 100%;
+    height: 40;
+    padding: 5px 15px;
+    font-size:large !important;
+    background: rgba(255, 255, 255, 0.07);
+    color: rgba(255, 255, 255, 0.70);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: "fantasy" !important;
+    }
+.classbirdie-explainDiv {
+    background: rgba(255, 255, 255, 0.07);
+    color: rgba(255, 255, 255, 0.70);
+    padding: 5px 15px;
+    max-height: 300px;
+    overflow-y: auto;
+    font-size: 12px !important;
+    font-family: serif !important;
+    font-weight: 200;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    white-space: pre-wrap;
+    display: none;
+    -webkit-overflow-scrolling: touch; /* Add this line */
+    -webkit-overflow-y: scroll; /* Add this line */
+}
+.classbirdie-answerDiv-capture {
+    background: #8F5DFF;
+    box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.25), 0px -10px 30px 0px rgba(0, 0, 0, 0.25) inset, 0px 10px 20px 0px rgba(255, 249, 249, 0.25) inset;
+    color: white;
+    margin-top: 10px;
+    width: 100%;
+    height: 40;
+    padding: 10px;
+    font-size:large !important;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: Arial, sans-serif !important;
+}
+.classbirdie-answerDiv-capture:hover {
+    background-color: #d0a5f3;
+}
+.classbirdie-thinkingDiv {
+    margin: 10px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.classbirdie-thinkingImg {
+    width: 50px;
+    height: 50px;
+}

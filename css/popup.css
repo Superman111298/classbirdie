@@ -1,0 +1,203 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+.title-icon {
+    float: left;
+    width: 25px;
+    height: 25px;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+hr {
+    border: 0.5px solid gray;
+}
+a {
+    text-decoration: none;
+}
+.sidebar {
+    background-color: #1e1e2f;
+    color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    width: 320px;
+}
+.header {
+    border-bottom: 1px solid gray;
+    padding-bottom: 10px;
+}
+.header h2 {
+    margin: 0;
+    font-size: 25px;
+    font-weight: normal;
+    text-align: left;
+    color: #fff;
+}
+.header span {
+    color: #a950ff;
+}
+.toggle-option {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #29294d;
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+    border-bottom: 1px solid gray;
+    border-radius: 10px;
+    /* margin-top: 10px; */
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.toggle-option label {
+    font-size: 20px;
+}
+input[type="checkbox"] {
+    width: 40px;
+    height: 20px;
+    -webkit-appearance: none;
+    appearance: none;
+    background-color: #ccc;
+    outline: none;
+    border-radius: 20px;
+    position: relative;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+input[type="checkbox"]:checked {
+    background-color: #a950ff;
+}
+input[type="checkbox"]::before {
+    content: '';
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background-color: white;
+    top: 1px;
+    left: 1px;
+    transition: transform 0.3s;
+}
+input[type="checkbox"]:checked::before {
+    transform: translateX(20px);
+}
+.menu-button, .screenshot-button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid gray;
+    height: 45px;
+    border-radius: 10px;
+    margin-top: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.menu-button {
+    text-align: left;
+    background-color: #29294d;
+    color: white;
+}
+.icon {
+    margin-right: 5px;
+    font-size: 20px;
+    float: left;
+}
+.menu-button:hover {
+    background-color: #3a3a66;
+}
+.screenshot-button {
+    background: #8F5DFF;
+    box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.25), 0px -10px 30px 0px rgba(0, 0, 0, 0.25) inset, 0px 10px 20px 0px rgba(255, 249, 249, 0.25) inset;
+    color: white;
+}
+.screenshot-button:hover {
+    background-color: #d0a5f3;
+}
+.btn {
+    text-align: left;
+}
+.setting-page {
+    margin-top: 5px;
+    margin-bottom: 0px;
+    font-size:smaller;
+}
+.setting-div  {
+    margin-top: 5%;
+    /* margin-bottom: 5%; */
+}
+p {
+    margin: 0px;
+    font-weight: bold;
+    font-size:large;
+}
+.setting-lang  {
+    margin-top: 5%;
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 10px;
+}
+.keyboard  {
+    font-size:x-small;
+    background-color: white;
+    color: gray;
+    border-radius: 2px;
+    padding: 4px;
+}
+.contain {
+    font-family: Arial, sans-serif;
+    background-color: #120D24;
+    border-radius: 10px;
+    padding: 15px;
+}
+.login-container {
+    width: 320px;
+    margin: 0px;
+    padding: 10px 0px;
+    border: 1px solid #ff0000;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.loginBtn {
+    margin-top: 10px;
+    width: 100%;
+    padding: 10px;
+    font-size:large;
+    background-color: #8C5FF0;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.loginBtn:hover {
+    background-color: #45a049;
+}
+.login-h {
+    text-align: left;
+    color: #fff;
+    margin-top: 0;
+}
+.login-p {
+    font-weight: bold;
+    font-size: large;
+    color: #fff;
+    padding:0px 20px 0px 20px;
+    text-align: center;
+    line-height: 1.5;
+}
+.right-arrow {
+    float: inline-end;
+    width: 25px;
+    height: 25px;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+.back-arrow {
+    float: left;
+    width: 35px;
+    height: 35px;
+    vertical-align: middle;
+    margin-right: 5px;
+}

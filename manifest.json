@@ -1,0 +1,36 @@
+{
+    "manifest_version": 3,
+    "name": "ClassBirdie",
+    "version": "1.0",
+    "description": "Capture screenshots of the current tab",
+    "permissions": ["activeTab",
+                    "desktopCapture", 
+                    "scripting", 
+                    "storage", 
+                    "tabs", 
+                    "unlimitedStorage", 
+                    "tabCapture", 
+                    "downloads"
+                  ],
+    "host_permissions":["<all_urls>", "https://*/*"],
+    "background": {
+      "service_worker": "js/background.js"
+    },
+
+    "content_scripts": [
+      {
+        "matches": ["http://*/*", "https://*/*", "<all_urls>"],
+        "js": [ "js/content.js", "libs/jquery.min.js"],
+        "css":["css/custom.css"]
+      }
+    ],
+
+    "action": {
+      "default_popup": "popup.html"
+    },
+    "icons": {
+      "16": "images/icon16.png",
+      "48": "images/icon48.png",
+      "128": "images/icon128.png"
+    }
+  }

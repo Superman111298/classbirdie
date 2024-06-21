@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StudyBuddy+ Interface</title>
+    <link rel="stylesheet" href="css/popup.css">
+    <script src="libs/jquery.js"></script>
+
+</head>
+<body>
+    <div class="contain">
+        <h2 class="login-h">ClassBirdie</h2>
+        <div class="login-container">
+            <p class="login-p">You need to login to use the extension</p>
+        </div>
+        <button class="loginBtn" id="login">Login</button>
+    </div>
+
+    <div class="sidebar">
+        <div class="header">
+            <h2><img class="title-icon" src="images/Icons/mdi--magic (5).png" alt="Bird Icon"><strong>Class</strong>birdie</h2>
+        </div>
+        <!-- <div class="toggle-option">
+            <label for="studybuddy-button">ClassBirdie Button</label>
+            <input type="checkbox" id="studybuddy-button">
+        </div> -->
+        <div class="toggle-option">
+            <label for="floating-mode">Floating Mode</label>
+            <input type="checkbox" id="floating-mode">
+        </div>
+        <div class="col-sm-6">
+            <a type="button" href="css/setting.html"><button class="menu-button">Extension Settings<img class="right-arrow" src="images/Icons/forward.png" alt="Bird Icon"></button></a>
+            <button id="support" class="menu-button">Support<img class="right-arrow" src="images/Icons/forward.png" alt="Bird Icon"></button>
+            <button id="capture" class="screenshot-button">Take Screenshot</button>
+        </div>
+    </div>
+    <script src="libs/lame.min.js"></script>
+    <script src="js/popup.js"></script>
+</body>
+</html>
